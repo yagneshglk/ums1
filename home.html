@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+   <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+   <style>
+      .w3-light-grey,
+      .w3-hover-light-grey:hover,
+      .w3-light-gray,
+      .w3-hover-light-gray:hover {
+         color: #000 !important;
+         background-color: #d3d1d1 !important;
+      }
+
+      .w3-green,
+      .w3-hover-green:hover {
+         color: #fff !important;
+         background-color: #8e44ad;
+         !important;
+      }
+
+      .w3-center {
+         text-align: center !important;
+      }
+
+      .w3-container,
+      .w3-panel {
+         padding: 0.01em 16px;
+      }
+
+      .w3-red,
+      .w3-hover-red:hover {
+         color: #fff !important;
+         background-color: #f44336 !important;
+      }
+
+      .icons {
+         font-size: 20px;
+
+      }
+
+      .icons a {
+         background-color: var(--main-color);
+         color: white;
+         padding: 5px;
+         margin-right: 5px;
+         border-radius: .5rem;
+      }
+   </style>
+
+</head>
+
+<body>
+
+   <header class="header">
+
+      <section class="flex">
+         <img src="./fevicon.png " alt="" height="50px">
+         <a href="home.html" class="logo">university Managment System</a>
+
+         <!-- <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form> -->
+
+         <div class="icons">
+            <!-- <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div> -->
+            <a href="">Home</a>
+            <a href="">Timetable </a>
+            <a href="">Examinations</a>
+            <a href="">Change Password</a>
+            <a href="">Logout</a>
+         </div>
+
+         <div class="profile">
+            <img src="images/pic-1.jpg" class="image" alt="">
+            <h3 class="name">shaikh anas</h3>
+            <p class="role">student</p>
+            <a href="profile.html" class="btn">view profile</a>
+            <div class="flex-btn">
+               <a href="login.html" class="option-btn">login</a>
+               <a href="register.html" class="option-btn">register</a>
+            </div>
+         </div>
+
+      </section>
+
+   </header>
+
+   <div class="side-bar">
+
+      <div id="close-btn">
+         <i class="fas fa-times"></i>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">shaikh anas</h3>
+         <p class="role">student</p>
+         <a href="profile.html" class="btn">view profile</a>
+      </div>
+
+      <nav class="navbar">
+         <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+         <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+         <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+         <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+         <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+      </nav>
+
+   </div>
+
+   <section class="home-grid">
+
+      <h1 class="heading">ATTENDENCE VIEW</h1>
+
+      <div class="box-container" style="background-color: #fff; height: 100%; ; padding: 2em; border-radius: 10px;">
+         <P>CSE326</P>
+         <div class="w3-light-grey">
+            <div class="w3-container w3-green w3-center" style="width:25%">25%</div>
+         </div><br>
+         <P>CSE111</P>
+         <div class="w3-light-grey">
+            <div class="w3-container w3-green w3-center" style="width:50%">50%</div>
+         </div><br>
+         <P>INT108</P>
+         <div class="w3-light-grey">
+            <div class="w3-container w3-green w3-center" style="width:75%">75%</div>
+         </div><br>
+         <P>PHY110</P>
+         <div class="w3-light-grey">
+            <div class="w3-container w3-green w3-center" style="width:25%">25%</div>
+         </div><br>
+         <P>MEC135</P>
+         <div class="w3-light-grey">
+            <div class="w3-container w3-green w3-center" style="width:50%">50%</div>
+         </div><br>
+         <P>MTH174</P>
+         <div class="w3-light-grey">
+            <div class="w3-container w3-green w3-center" style="width:75%">75%</div>
+         </div><br>
+         <P>PES318</P>
+         <div class="w3-light-grey">
+            <div class="w3-container w3-green w3-center" style="width:75%">75%</div>
+         </div><br>
+
+         <p style="text-align: right;">ATTENDENCE:98%</p>
+      </div>
+
+   </section>
+   <section class="courses">
+
+      <h1 class="heading">Today Timetable</h1>
+
+      <div class="box-container">
+
+         <div class="box">
+            <div class="tutor">
+               <div class="info">
+                  <h3>19-12-2022</h3>
+                  <span>26-501A</span>
+               </div>
+            </div>
+            <div class="thumb">
+            </div>
+            <h3 class="title">CSE 326</h3>
+            <a href="playlist.html" class="inline-btn">09:00AM TO 10:00AM</a>
+         </div>
+         <div class="box">
+            <div class="tutor">
+               <div class="info">
+                  <h3>19-12-2022</h3>
+                  <span>26-501A</span>
+               </div>
+            </div>
+            <div class="thumb">
+            </div>
+            <h3 class="title">CSE 326</h3>
+            <a href="playlist.html" class="inline-btn">09:00AM TO 10:00AM</a>
+         </div>
+         <div class="box">
+            <div class="tutor">
+               <div class="info">
+                  <h3>19-12-2022</h3>
+                  <span>26-501A</span>
+               </div>
+            </div>
+            <div class="thumb">
+            </div>
+            <h3 class="title">CSE 326</h3>
+            <a href="playlist.html" class="inline-btn">09:00AM TO 10:00AM</a>
+         </div>
+         <div class="box">
+            <div class="tutor">
+               <div class="info">
+                  <h3>19-12-2022</h3>
+                  <span>26-501A</span>
+               </div>
+            </div>
+            <div class="thumb">
+            </div>
+            <h3 class="title">CSE 326</h3>
+            <a href="playlist.html" class="inline-btn">09:00AM TO 10:00AM</a>
+         </div>
+         <div class="box">
+            <div class="tutor">
+               <div class="info">
+                  <h3>19-12-2022</h3>
+                  <span>26-501A</span>
+               </div>
+            </div>
+            <div class="thumb">
+            </div>
+            <h3 class="title">CSE 326</h3>
+            <a href="playlist.html" class="inline-btn">09:00AM TO 10:00AM</a>
+         </div>
+         <div class="box">
+            <div class="tutor">
+               <div class="info">
+                  <h3>19-12-2022</h3>
+                  <span>26-501A</span>
+               </div>
+            </div>
+            <div class="thumb">
+            </div>
+            <h3 class="title">CSE 326</h3>
+            <a href="playlist.html" class="inline-btn">09:00AM TO 10:00AM</a>
+         </div>
+         <div class="box">
+            <div class="tutor">
+               <div class="info">
+                  <h3>19-12-2022</h3>
+                  <span>26-501A</span>
+               </div>
+            </div>
+            <div class="thumb">
+            </div>
+            <h3 class="title">CSE 326</h3>
+            <a href="playlist.html" class="inline-btn">09:00AM TO 10:00AM</a>
+         </div>
+      </div>
+
+      <div class="more-btn">
+         <a href="courses.html" class="inline-option-btn">view full time table</a>
+      </div>
+
+   </section>
+
+
+   <footer class="footer">
+
+      &copy; copyright @ 2022 by <span>mr. web designer</span> | all rights reserved!
+
+   </footer>
+
+   <!-- custom js file link  -->
+   <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
